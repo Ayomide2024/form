@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+.main-form{
+    background-image: url(lake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.sm-form{
+    background-color: rgba(255, 255, 255, 75%);
+    width: 450px;
+    padding: 35px 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+}
+.sm-form h1{
+    font-variant: small-caps;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sm-form h1 span{
+    color: rgb(255, 94, 0);
+}
+.my-input input{
+    width: 100%;
+    padding: 13px 10px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    outline: none;
+}
+.submit-button{
+    text-align: center;
+}
+.submit-button button{
+    padding: 12px 20px;
+    background-color:rgb(255, 94, 0) ;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+.text-here{
+    display: flex;
+    justify-content: space-between;
+}
+.text-here a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.685);
+}
